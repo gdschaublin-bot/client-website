@@ -1,0 +1,190 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Custom Orders | Big Daddy Graphics</title> 
+    <link rel="stylesheet" href="css/style.css"> 
+    <script src="script.js" defer></script>
+</head> 
+<body> 
+
+  <!-- nav -->
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo" aria-label="Big Daddy Graphics home">
+        <img src="images/bdg-logo.png" alt="Big Daddy Graphics logo">
+      </a>
+      <button id="menuButton" class="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-nav">&#9776;</button>
+      <nav id="primaryNav" class="main-nav" id="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="products-services.html">Products &amp; Services</a></li>
+          <li class="has-dropdown">
+            <a href="our-work/index.html">Our Work</a>
+            <!-- On desktop, this submenu opens when hovering over Our Work.
+                 On mobile, the links appear inside the expanded menu. -->
+            <ul class="dropdown">
+              <li><a href="our-work/apparel.html">Apparel</a></li>
+              <li><a href="our-work/accessories.html">Accessories</a></li>
+              <li><a href="our-work/promo-products.html">Promotional Projects</a></li>
+            </ul>
+          </li>
+          <li><a href="custom-orders.html">Custom Orders</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+        <!-- Hero Section --> 
+        <section class="hero hero-orders"> 
+            <h1>Custom Orders</h1> 
+            <p>Get your order here</p> 
+        </section> 
+
+        <!-- Two Column Interactive Workspace Layout Section --> 
+        <section class="section"> 
+            <div class="container">
+                <h2 class="section-title">CUSTOM QUOTES:</h2> 
+                
+                <div class="custom-orders-container"> 
+                    <!-- Left Form Area Column -->
+                    <form action="#" method="POST" class="order-form">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input id="first-name" name="first-name" type="text" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input id="last-name" name="last-name" type="text" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="garment-type">Garment Type</label>
+                            <input id="garment-type" name="garment-type" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="garment-quantity">Garment Quantity</label>
+                            <input id="garment-quantity" name="garment-quantity" type="number" min="1">
+                        </div>
+                        <div class="form-group">
+                            <label for="garment-color">Garment Color</label>
+                            <input id="garment-color" name="garment-color" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="due-date">Desired Due Date</label>
+                            <input id="due-date" name="due-date" type="date">
+                        </div>
+                        <div class="form-group">
+                            <label for="number-of-colors">Number of colors in Design/Print</label>
+                            <input id="number-of-colors" name="number-of-colors" type="number" min="1">
+                        </div>
+                        <div class="form-group">
+                            <label for="promotional-products">Promotional Products</label>
+                            <input id="promotional-products" name="promotional-products" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Describe your desired promotional product</label>
+                            <textarea id="description" name="description"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="comments">Comments</label>
+                            <textarea id="comments" name="comments"></textarea>
+                        </div>
+                        <button type="submit" class="button-primary">Submit</button>
+                    </form>
+
+                    <!-- Right Vector Format Instructions Sidebar Column --> 
+                    <div class="info-sidebar"> 
+                        <h3>Acceptable formats:</h3> 
+                        <ul class="sidebar-list"> 
+                            <li>Adobe Illustrator .eps</li> 
+                            <li>Adobe Illustrator .ai</li> 
+                            <li>CorelDraw .cdr</li> 
+                            <li>Adobe Acrobat Reader .pdf (if originally saved as vector)</li> 
+                            <li>Adobe Photoshop .psd (450 dpi or higher usable for one color artwork only)</li> 
+                            <li>All text should be converted to paths or outlines</li> 
+                        </ul> 
+                        <p class="format-alert"><strong>Unacceptable formats:</strong> Microsoft Word, Microsoft Publisher.</p> 
+                        <div class="art-submission-card">
+                            <h4>SUBMITTING ART FILES:</h4>
+                            <p>If you are doing your own designs, there are a few things to keep in mind: Big Daddy Graphics can accept art files in both PC or Mac file formats. You can email your files directly to <a href="mailto:bigdaddygraphicsllc@gmail.com">bigdaddygraphicsllc@gmail.com</a>.</p> 
+                        </div>
+                    </div> 
+                </div> 
+            </div> 
+        </section> 
+
+        
+    </main> 
+
+<!-- cta -->
+    <section class="project-banner">
+      <div class="container">
+        <h2>Have a project in mind?</h2>
+        <p>Looking for custom apparel or merchandise? Contact us to create something made for you.</p>
+        <a href="contact.html" class="button button-red">Contact Now</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products-services.html">Products &amp; Services</a></li>
+          <li><a href="our-work/index.html">Our Work</a></li>
+        </ul>
+        <ul>
+          <li><a href="custom-orders.html">Custom Orders</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-badges">
+        <img src="images/asi-member-logo.png" alt="ASI Member logo">
+        <img src="images/accredited-business-logo.png" alt="BBB Accredited Business logo">
+      </div>
+      <div class="newsletter">
+        <h3>Join our email list</h3>
+        <p>and get 10% off your order!</p>
+        <label for="newsletter-email">Email address</label>
+        <input id="newsletter-email" type="email" placeholder="you@example.com">
+        <button class="button button-primary" type="button">Subscribe</button>
+      </div>
+    </div>
+    <div class="footer-bottom">
+        
+      <div class="container footer-bottom-content">
+        <p><a href="tel:+14198720338" aria-label="Call Big Daddy Graphics"><img src="images/phone-icon.png" alt=""></a> <a href="tel:+14198720338">(419) 872-0338</a></p>
+        <p><img src="images/pinpoint-icon.png" alt=""> 121 Burlingwood Dr, Perrysburg, OH 43551</p>
+        <div class="footer-socials" aria-label="Social media icons">
+          <a href="https://www.facebook.com/bigdaddygraphics419" target="_blank" rel="noopener noreferrer" aria-label="Big Daddy Graphics on Facebook"><img src="images/facebook-icon.png" alt="Facebook"></a>
+          <a href="https://www.instagram.com/bigdaddygraphics419" target="_blank" rel="noopener noreferrer" aria-label="Big Daddy Graphics on Instagram"><img src="images/instagram-logo.png" alt="Instagram"></a>
+        </div>
+          
+        
+          
+      </div>
+        
+    </div>
+       
+     
+        <div class="container">
+              <p class="disclaimer"><em>This website is a student project created for educational purposes. It is not the official website of Big Daddy Graphics. Please do not submit real orders, quote requests, or personal information.</em></p>
+          </div>
+  </footer>
+
+ 
+</body>
+</html>
+

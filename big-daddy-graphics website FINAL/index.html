@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Big Daddy Graphics</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- nav -->
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo" aria-label="Big Daddy Graphics home">
+        <img src="images/bdg-logo.png" alt="Big Daddy Graphics logo">
+      </a>
+      <button id="menuButton" class="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-nav">&#9776;</button>
+      <nav id="primaryNav" class="main-nav" id="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="products-services.html">Products &amp; Services</a></li>
+          <li class="has-dropdown">
+            <a href="our-work/index.html">Our Work</a>
+            <!-- On desktop, this submenu opens when hovering over Our Work.
+                 On mobile, the links appear inside the expanded menu. -->
+            <ul class="dropdown">
+              <li><a href="our-work/apparel.html">Apparel</a></li>
+              <li><a href="our-work/accessories.html">Accessories</a></li>
+              <li><a href="our-work/promo-products.html">Promotional Projects</a></li>
+            </ul>
+          </li>
+          <li><a href="custom-orders.html">Custom Orders</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- hero -->
+    <section class="hero hero-home">
+      <p class="hero-welcome">WELCOME TO</p>
+      <h1>BIG DADDY GRAPHICS</h1>
+        <p>Custom apparel &amp; merchandise, made local.</p>
+      <div class="buttons">
+        <a href="about.html" class="button button-secondary">Learn More</a>
+        <a href="custom-orders.html" class="button button-red">Get Started</a>
+      </div>
+    </section>
+
+    <!-- intro -->
+    <section class="section">
+      <div class="container home-intro">
+        <div class="home-intro-text">
+          <h2>For over 25 years,</h2>
+          <p>Big Daddy Graphics has been a locally owned, family-run business serving the Perrysburg community and beyond. From schools and athletic teams, to businesses, organizations, special events, and community customers, we provide <strong>high-quality custom apparel and merchandise</strong>. Our physical retail store also offers spirit wear and other products, making it easy to find exactly what you need while supporting a local business.</p>
+        </div>
+       <div class="carousel">
+
+    <img
+      id="carouselImage"
+      src="images/index/staff-photo.jpg"
+      alt="BDG Staff">
+
+    <button
+      id="previousButton"
+      class="carousel-button previous"
+      type="button">
+      &#10094;
+      <span class="visually-hidden">Previous image</span>
+    </button>
+
+    <button
+      id="nextButton"
+      class="carousel-button next"
+      type="button">
+      &#10095;
+      <span class="visually-hidden">Next image</span>
+    </button>
+
+  </div>
+      </div>
+    </section>
+
+    <!-- what can we make for you -->
+    <section class="section categories-section">
+      <div class="container">
+        <h2 class="section-title">What can we make for you?</h2>
+        <div class="category-cards">
+          <div class="category-card">
+            <h3>Apparel</h3>
+            <p>T-shirts, hoodies, polos, jackets, hats, and more.</p>
+            <a class="button button-secondary" href="products-services.html#apparelcard">View All Apparel</a>
+          </div>
+
+          <div class="category-card">
+            <h3>Accessories</h3>
+            <p>Bags, blankets, cups, socks, and other custom items.</p>
+            <a class="button button-secondary" href="products-services.html#accessoriescard">View All Accessories</a>
+          </div>
+
+          <div class="category-card">
+            <h3>Promo-Products</h3>
+            <p>Stickers, magnets, decals, and more to promote your business or organization.</p>
+            <a class="button button-secondary" href="products-services.html#promocard">View All Promo-Products</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- our work banner -->
+    <section class="work-banner">
+      <div class="container">
+        <h2>See what we've made</h2>
+        <p>Check out some of our custom work for local teams, schools, businesses, and more.</p>
+        <a class="button button-secondary" href="our-work/index.html">View Our Work</a>
+      </div>
+    </section>
+
+    <!-- reviews -->
+    <section class="section reviews-section">
+      <div class="container">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <div class="review-cards">
+          <div class="review-card">
+            <span class="review-stars" aria-label="Rating placeholder">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            <p>"Mindy at Big Daddy Graphics is the BEST! Anytime I have needed anything, even in a very inconvenient pinch to her workload, she has always come through and been extremely accommodating! Highly recommend BDG for all of your embroidery needs!"</p>
+            <small>Geri D.</small>
+          </div>
+          <div class="review-card">
+            <span class="review-stars" aria-label="Rating placeholder">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            <p>"Mindy, Rex and the Big Daddy family go above and beyond to find you what you need and if they don't have it they make it for you. They have always been helpful and take customer service to another level. If you haven't checked them out you are missing out."</p>
+            <small>Katie G.</small>
+          </div>
+          <div class="review-card">
+            <span class="review-stars" aria-label="Rating placeholder">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            <p>"Local Family Owned business that treats each customer as family. Great products made by amazing people. You can’t ask for a better place to get all your screen printing and school wear from!"</p>
+            <small>Zack G.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cta -->
+    <section class="project-banner">
+      <div class="container">
+        <h2>Have a project in mind?</h2>
+        <p>Looking for custom apparel or merchandise? Contact us to create something made for you.</p>
+        <a href="contact.html" class="button button-red">Contact Now</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products-services.html">Products &amp; Services</a></li>
+          <li><a href="our-work/index.html">Our Work</a></li>
+        </ul>
+        <ul>
+          <li><a href="custom-orders.html">Custom Orders</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-badges">
+        <img src="images/asi-member-logo.png" alt="ASI Member logo">
+        <img src="images/accredited-business-logo.png" alt="BBB Accredited Business logo">
+      </div>
+      <div class="newsletter">
+        <h3>Join our email list</h3>
+        <p>and get 10% off your order!</p>
+        <label for="newsletter-email">Email address</label>
+        <input id="newsletter-email" type="email" placeholder="you@example.com">
+        <button class="button button-primary" type="button">Subscribe</button>
+      </div>
+    </div>
+    <div class="footer-bottom">
+        
+      <div class="container footer-bottom-content">
+        <p><a href="tel:+14198720338" aria-label="Call Big Daddy Graphics"><img src="images/phone-icon.png" alt=""></a> <a href="tel:+14198720338">(419) 872-0338</a></p>
+        <p><img src="images/pinpoint-icon.png" alt=""> 121 Burlingwood Dr, Perrysburg, OH 43551</p>
+        <div class="footer-socials" aria-label="Social media icons">
+          <a href="https://www.facebook.com/bigdaddygraphics419" target="_blank" rel="noopener noreferrer" aria-label="Big Daddy Graphics on Facebook"><img src="images/facebook-icon.png" alt="Facebook"></a>
+          <a href="https://www.instagram.com/bigdaddygraphics419" target="_blank" rel="noopener noreferrer" aria-label="Big Daddy Graphics on Instagram"><img src="images/instagram-logo.png" alt="Instagram"></a>
+        </div>
+          
+        
+          
+      </div>
+        
+    </div>
+       
+     
+        <div class="container">
+              <p class="disclaimer"><em>This website is a student project created for educational purposes. It is not the official website of Big Daddy Graphics. Please do not submit real orders, quote requests, or personal information.</em></p>
+          </div>
+  </footer>
+
+ 
+</body>
+</html>
